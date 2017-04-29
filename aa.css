@@ -1,0 +1,36 @@
+.container {
+  width: 400px;
+  min-height: 400px;
+  background-color: lightblue;
+  margin: 0 auto;
+  padding: 10px;
+}
+.container .check {
+  width: 100%;
+  text-align: center;
+}
+.container .content {
+  min-height: 200px;
+  padding-top: 50px;
+}
+.container .content .now {
+  width: 100%;
+}
+.container .content .now p {
+  width: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+.container .content .now p:nth-child(1) {
+  font-size: 20px;
+}
+.container .content .now p:nth-child(3) {
+  font-size: 30px;
+}
+.container .content .main {
+  width: 300px;
+  margin: 0 auto;
+}
+.container .content .main span:nth-child(2) {
+  float: right;
+}
